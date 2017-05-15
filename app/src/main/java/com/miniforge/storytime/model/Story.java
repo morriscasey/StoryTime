@@ -41,4 +41,11 @@ public class Story {
                 R.string.page6);
 
     }
+
+    public Page getPage(int pageNumber){
+        if(pageNumber >= pages.length){
+            pageNumber = 0;
+        }
+        return pages[pageNumber];
+    }
 }
