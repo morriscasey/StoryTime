@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.StoryActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ui.MainActivity"></activity>
     </application>
 
 </manifest>
